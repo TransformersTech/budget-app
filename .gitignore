@@ -1,0 +1,42 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Environment variables
+.env
+.env.*
+
+# Logs
+**/*.log
+
+# Firebase
+.firebase/
+
+# Dashboard (Next.js)
+dashboard/.next/
+dashboard/out/
+dashboard/.vercel/
+dashboard/.turbo/
+
+# Functions
+functions/lib/
+functions/node_modules/
+functions/.runtimeconfig.json
+
+# Mobile (Flutter)
+mobile/build/
+mobile/.dart_tool/
+mobile/.flutter-plugins
+mobile/.flutter-plugins-dependencies
+mobile/.packages
+mobile/.pub-cache/
+mobile/.pub/
+mobile/android/.gradle/
+mobile/ios/Pods/
+mobile/ios/.symlinks/
+mobile/ios/Flutter/ephemeral/
+mobile/ios/Flutter/Generated.xcconfig
+mobile/ios/Flutter/flutter_export_environment.sh
+mobile/ios/Flutter/.last_build_id
+mobile/.idea/
+mobile/*.iml
